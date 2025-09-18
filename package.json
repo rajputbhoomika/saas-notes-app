@@ -1,0 +1,21 @@
+{
+  "name": "saas-notes-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:generate": "prisma generate",
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "next": "13.4.19",
+    "prisma": "5.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
